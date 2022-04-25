@@ -1,0 +1,404 @@
+.loginDiv{
+    margin: auto; 
+    width: 300px; 
+    height: 350px;
+    margin-top: 160px;
+
+} 
+.login{
+    border: 4px solid cyan;
+    padding: 60px;
+    width: 200px; 
+    height: 150px;
+} 
+.login input{
+    border-width: 0px;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin-top: 20px;
+} 
+.login button{
+    margin-left: 60px;
+    margin-top: 20px;
+} 
+
+.show{
+    display: block;
+    font-size: small;
+} 
+.hide{
+    display: none;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    background: #b4b9b9b6
+}
+
+.wrapper {
+    max-width: 350px;
+    
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    /*box-shadow: 7px 7px 5px #cbced1, -4px -11px 5px #fff*/ 
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+} 
+
+.wrapper h2{
+    margin: auto;
+}
+
+.logo {
+    width: 80px;
+    margin: auto
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff
+}
+
+.wrapper .form-field .fas {
+    color: #555
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px
+}
+
+.wrapper .btn:hover {
+    background-color: #039BE5
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4
+}
+
+.wrapper a:hover {
+    color: #039BE5
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px
+    }
+} 
+
+@keyframes miniDiv {
+    from {opacity: 0; margin-top: -40px;}
+    to {opacity: 1;margin-top: 0px;}
+  }
+
+
+.movieDiv{
+    
+    background-color: #f9fafb;
+    max-width:  550px; 
+    border-radius: 5%;
+    height: 320px; 
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    transition: 0.4s; 
+    animation-name: miniDiv;
+    animation-duration: 0.7s;
+      -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+} 
+
+
+.movieDiv:hover{
+    background-color:  #dce2e983;
+    transform: scale(1.06)
+}
+ 
+.movieMiniDiv{
+           
+            margin: 10px;
+            padding: 10px;
+            text-align: left;
+}    
+
+
+li{
+    list-style: none;
+
+} 
+.allmovies{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+} 
+.allmovies>*{
+    flex:  10px;
+    margin: auto;
+    margin-bottom: 40px;
+   
+}
+
+.btnMovie{
+    
+    margin-left: 100px; 
+    background-color: rgba(85, 85, 85, 0);
+    border: 0px; 
+    transition: 0.6s; 
+    
+} 
+.btnMovie:hover{
+  font-size: large;
+  background-color: rgba(85, 85, 85, 0);
+} 
+
+input{
+    border-width: 0px;
+    border-bottom: 1px black solid;
+    background-color: rgba(85, 85, 85, 0);
+    width: 280px;
+    height: 50px;
+    transition: 0.4s;
+} 
+input:hover{
+   background-color:  rgba(85, 85, 85, 0.179);
+}  
+
+.selectMovie{ 
+    margin-top: 5px;
+    border-width: 0px;
+    border-bottom: 1px black solid;
+    background-color: rgba(85, 85, 85, 0);
+    width: 100px;
+    height: 20px;
+    transition: 0.4s;
+}
+
+
+
+.subsDivOn{
+    
+               border: solid black 2px;
+               width:320px;
+               height:100px;
+               overflow:scroll;
+               margin-top: -15px;
+               margin-left:170px;
+               margin-Bottom:0px;
+               padding-Left:5px;
+}  
+
+.subsDivOn::-webkit-scrollbar {
+    display: none; 
+} 
+
+.subsDivOn h6{
+    text-decoration: underline;
+}
+
+.subsDivOff{
+               display: none;
+               width:320px;
+               height:100px;
+               overflow:hidden;
+               margin-top: -15px;
+               margin-left:170px;
+               margin-Bottom:0px;
+               padding-Left:5px;
+} 
+
+
+.addSubDivOn{ 
+             border: solid black 2px;
+               width:320px;
+               height:100px;
+               overflow:hidden;
+               margin-top: -15px;
+               margin-left:170px;
+               margin-Bottom:0px;
+               padding-Left:5px;
+} 
+
+.addSubDivOff{ 
+    display: none;
+     width:320px;
+     height:100px;
+     overflow:hidden;
+     margin-top: -15px;
+     margin-left:170px;
+     margin-Bottom:0px;
+     padding-Left:5px;
+} 
+
+.addSubBtn{
+    width: 80px; 
+    height: 20px; 
+    border: 0px;  
+    background-color: rgba(0, 0, 0, 0.811);
+    border-radius: 10%;
+    color: white;
+    font-size: small;
+} 
+
+.singleMovie{
+    border: 4px solid black; 
+    border-radius: 10%;
+    text-align: left;
+    width: 440px; 
+    height: 440px; 
+    margin: auto; 
+    padding: 15px;
+}  
+
+.singleMember{
+    border: 4px solid black; 
+    border-radius: 10%;
+    text-align: left;
+    width: 400px; 
+    height: 240px; 
+    margin: auto; 
+    padding: 15px;
+}
+
+
+h5{
+    text-decoration: underline;
+} 
+
+.dropdown-toggle::after {
+    display: none !important; 
+  }  
+  
+  .dropdown-menu{
+    background-color: rgb(41, 37, 37);
+    margin-left: -20px;
+}
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    }
+
+   
+  .navbar .dropdown
+  {
+      margin-left: 20px;
+  }   
+
+   .navbar .dropdown button{
+       background-color: rgba(255, 255, 255, 0);
+       color: white;
+       border-width: 0px; 
+       width: 100%; 
+       height: 28px;
+       text-align: left;
+       padding-left: 18px;
+  } 
+  .navbar .dropdown button:hover{
+    background-color: rgba(167, 155, 155, 0.217);
+  }
+  
+ 
+  
+  .logOutNav{
+      margin-left: 900px;
+      position: fixed;
+  }  
+
+  .allMoviesDiv
+  {
+      padding: 10px;
+  } 
+
+  .allMoviesDiv2{
+    pointer-events: none;  
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+
+  .zindex{ 
+    
+    width: 400px;
+    height: 200px;
+    z-index: 2; 
+    background-color: rgba(7, 20, 27, 0.928); 
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    position: fixed; 
+    margin-left: 400px; 
+    margin-top: 200px; 
+    text-align: center;  
+    color: white;
+    border-radius: 18px;
+}   
+.zindex2{
+   display: none;
+    
+} 
+ 
+.allMembersDiv
+{
+    text-align: center;
+}  
+
+.allMembersDiv2{
+    pointer-events: none;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  } 
+
+ 
+
+
+
+
+  
